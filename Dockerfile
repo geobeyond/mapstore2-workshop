@@ -1,6 +1,6 @@
 FROM geosolutionsit/mapstore2:2021.01.04
 
-run apt-get update && apt-get install maven
+run apt-get update && apt-get -y install maven
 
 workdir /srv
 run wget https://github.com/cdr/code-server/releases/download/v3.12.0/code-server-3.12.0-linux-amd64.tar.gz
