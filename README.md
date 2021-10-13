@@ -10,6 +10,6 @@ This is a mapstore development environment for fast deployment and deletion.
 
 to run:
 
-    docker run -p8080:8080 -p9080:8081 sirmmo/mapstorecode
+    docker run -p9001:8080 -p9002:9080 sirmmo/mapstorecode
 
     
